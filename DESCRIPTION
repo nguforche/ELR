@@ -1,0 +1,25 @@
+Package: ELR
+Title: Extreme Logistic Regression
+Version: 0.0.1
+Author: c(person("Che", "Ngufor", , "Ngufor.Che@mayo.edu", role = c("aut",
+    "cre")), person("Janusz", "Wojtusiak", , "jwojt@mli.gmu.edu", role =
+    c("aut")))
+Maintainer: Che Ngufor <Ngufor.Che@mayo.edu>
+Description: An extension of the Exreme Learning Machine (ELM) method to kernel
+    logistic regression. A simple approximation of the
+    logistic function converts the iterative reweighted least squares
+    solution to a linear solution. Package also include an extension
+    of ELM to (robust) least-squares support vector machine (classifier)
+    as well as the original ELM.
+Depends:
+    R (>= 3.1.2),
+    matrixcalc,
+    MASS
+Imports:
+    caret,
+    mvtnorm,
+    DMwR,
+    PresenceAbsence,
+License: GPL(>= 3)
+LazyData: true
+NeedsCompilation: no
